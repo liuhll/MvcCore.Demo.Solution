@@ -1,4 +1,5 @@
-﻿using MvcCoreDemo.Domain.Validation;
+﻿using FluentValidation.Results;
+using MvcCoreDemo.Domain.Validation;
 
 namespace MvcCoreDemo.Domain.Interfaces.Validation
 {
