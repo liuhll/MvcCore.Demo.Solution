@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using FluentValidation.Results;
 using MvcCoreDemo.Domain.Interfaces.Validation;
-using MvcCoreDemo.Domain.Validation;
 
 namespace MvcCoreDemo.Domain.Entities.Model
 {
