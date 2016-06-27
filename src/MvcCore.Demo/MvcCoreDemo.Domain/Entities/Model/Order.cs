@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MvcCoreDemo.Domain.Interfaces.Validation;
 using FluentValidation.Results;
 
@@ -18,6 +19,8 @@ namespace MvcCoreDemo.Domain.Entities.Model
         public string Phone { get; set; }
         public string Email { get; set; }
         public decimal Total { get; set; }
+        public IList<OrderDetail> OrderDetails { get; set; }
+
         public ValidationResult ValidationResult { get; }
         public bool IsValid { get; }
     }

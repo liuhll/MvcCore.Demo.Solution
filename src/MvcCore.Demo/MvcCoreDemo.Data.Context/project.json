@@ -4,6 +4,7 @@
   "dependencies": {
     "CommonServiceLocator": "1.3.0",
     "EntityFramework": "6.1.3",
+    "MvcCoreDemo.Domain": "1.0.0-*",
     "NETStandard.Library": "1.5.0-rc2-24027"
   },
 
