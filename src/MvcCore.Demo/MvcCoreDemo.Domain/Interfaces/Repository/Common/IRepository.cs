@@ -12,7 +12,7 @@ namespace MvcCoreDemo.Domain.Interfaces.Repository.Common
         void Add(TEntity entity);
         void Update(TEntity entity);
         void Delete(TEntity entity);
-        TEntity Get(int id);
+        TEntity Get(Guid id);
         IEnumerable<TEntity> All(bool @readonly = false);
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate, bool @readonly = false);
     }
