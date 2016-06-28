@@ -45,8 +45,9 @@ namespace MvcCoreDemo.Data.Repository.EntityFramework.Common
             DbSet.Remove(entity);
         }
 
-        public TEntity Get(int id)
+        public TEntity Get(Guid id)
         {
+
             return DbSet.Find(id);
         }
 
