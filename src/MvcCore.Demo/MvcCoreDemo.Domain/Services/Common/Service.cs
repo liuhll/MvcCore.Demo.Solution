@@ -4,11 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using FluentValidation.Results;
-using MvcCoreDemo.Domain.Interfaces.Repository.Common;
-using MvcCoreDemo.Domain.Interfaces.Service.Common;
-using MvcCoreDemo.Domain.Interfaces.Validation;
+using MvcMusicStore.Domain.Interfaces.Repository.Common;
+using MvcMusicStore.Domain.Interfaces.Service.Common;
+using MvcMusicStore.Domain.Interfaces.Validation;
 
-namespace MvcCoreDemo.Domain.Services.Common
+namespace MvcMusicStore.Domain.Services.Common
 {
     public class Service<TEntity> : IService<TEntity>
          where TEntity : class

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MvcCoreDemo.UI.Data.Migrations
+namespace MvcMusicStore.UI.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

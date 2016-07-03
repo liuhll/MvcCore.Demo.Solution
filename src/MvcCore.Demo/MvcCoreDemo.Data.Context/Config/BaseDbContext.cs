@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcCoreDemo.Data.Context.Interfaces;
+using MvcMusicStore.Data.Context.Interfaces;
 
-namespace MvcCoreDemo.Data.Context.Config
+namespace MvcMusicStore.Data.Context.Config
 {
     public class BaseDbContext : DbContext, IDbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace MvcCoreDemo.Domain.Interfaces
+﻿namespace MvcMusicStore.Domain.Interfaces
 {
 
     /// <summary>

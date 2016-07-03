@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MvcCoreDemo.UI.Models;
-using MvcCoreDemo.UI.Models.ManageViewModels;
-using MvcCoreDemo.UI.Services;
+using MvcMusicStore.UI.Models;
+using MvcMusicStore.UI.Models.ManageViewModels;
+using MvcMusicStore.UI.Services;
 
-namespace MvcCoreDemo.UI.Controllers
+namespace MvcMusicStore.UI.Controllers
 {
     [Authorize]
     public class ManageController : Controller

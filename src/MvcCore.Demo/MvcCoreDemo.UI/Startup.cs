@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using MvcCoreDemo.UI.Data;
-using MvcCoreDemo.UI.Models;
-using MvcCoreDemo.UI.Services;
+using MvcMusicStore.UI.Data;
+using MvcMusicStore.UI.Models;
+using MvcMusicStore.UI.Services;
 
-namespace MvcCoreDemo.UI
+namespace MvcMusicStore.UI
 {
     public class Startup
     {

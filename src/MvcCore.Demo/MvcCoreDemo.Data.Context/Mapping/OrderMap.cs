@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcCoreDemo.Domain.Entities.Model;
+using MvcMusicStore.Domain.Entities.Model;
 
-namespace MvcCoreDemo.Data.Context.Mapping
+namespace MvcMusicStore.Data.Context.Mapping
 {
     public class OrderMap : EntityTypeConfiguration<Order>
     {

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MvcCoreDemo.UI.Models.AccountViewModels
+namespace MvcMusicStore.UI.Models.AccountViewModels
 {
     public class ForgotPasswordViewModel
     {

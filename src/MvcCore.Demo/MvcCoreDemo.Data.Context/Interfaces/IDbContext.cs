@@ -5,7 +5,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MvcCoreDemo.Data.Context.Interfaces
+namespace MvcMusicStore.Data.Context.Interfaces
 {
     public interface IDbContext
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcCoreDemo.Domain.Entities.Model;
-using MvcCoreDemo.Domain.Interfaces.Repository.Common;
-using MvcCoreDemo.Domain.Interfaces.Service;
-using MvcCoreDemo.Domain.Services.Common;
+using MvcMusicStore.Domain.Entities.Model;
+using MvcMusicStore.Domain.Interfaces.Repository.Common;
+using MvcMusicStore.Domain.Interfaces.Service;
+using MvcMusicStore.Domain.Services.Common;
 
-namespace MvcCoreDemo.Domain.Services
+namespace MvcMusicStore.Domain.Services
 {
     public class CartService : Service<Cart>, ICartService
     {

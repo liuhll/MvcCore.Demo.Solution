@@ -4,11 +4,11 @@ using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.Practices.ServiceLocation;
-using MvcCoreDemo.Data.Context;
-using MvcCoreDemo.Domain.Interfaces.Repository.Common;
-using MvcCoreDemo.Data.Context.Interfaces;
+using MvcMusicStore.Data.Context;
+using MvcMusicStore.Domain.Interfaces.Repository.Common;
+using MvcMusicStore.Data.Context.Interfaces;
 
-namespace MvcCoreDemo.Data.Repository.EntityFramework.Common
+namespace MvcMusicStore.Data.Repository.EntityFramework.Common
 {
     public class Repository<TEntity> : IRepository<TEntity>, IDisposable
        where TEntity : class

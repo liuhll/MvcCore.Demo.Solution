@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MvcCoreDemo.Domain.Services.Helpers
+namespace MvcMusicStore.Domain.Services.Helpers
 {
     public static class LinqExtentions
     {
