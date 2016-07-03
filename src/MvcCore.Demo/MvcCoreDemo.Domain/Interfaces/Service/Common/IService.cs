@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using FluentValidation.Results;
 
-namespace MvcCoreDemo.Domain.Interfaces.Service.Common
+namespace MvcMusicStore.Domain.Interfaces.Service.Common
 {
     public interface IService<TEntity>
     where TEntity : class

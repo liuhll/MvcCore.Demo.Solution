@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.Practices.ServiceLocation;
-using MvcCoreDemo.Data.Context.Interfaces;
+using MvcMusicStore.Data.Context.Interfaces;
 
-namespace MvcCoreDemo.Data.Context
+namespace MvcMusicStore.Data.Context
 {
     public class UnitOfWork<TContext> : IUnitOfWork<TContext>, IDisposable
         where TContext : IDbContext, new()

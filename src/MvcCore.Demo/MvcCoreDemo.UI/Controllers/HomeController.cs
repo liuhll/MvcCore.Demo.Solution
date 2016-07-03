@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MvcCoreDemo.UI.Controllers
+namespace MvcMusicStore.UI.Controllers
 {
     public class HomeController : Controller
     {

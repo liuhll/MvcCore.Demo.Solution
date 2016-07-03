@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MvcCoreDemo.UI.Services
+namespace MvcMusicStore.UI.Services
 {
     public interface ISmsSender
     {

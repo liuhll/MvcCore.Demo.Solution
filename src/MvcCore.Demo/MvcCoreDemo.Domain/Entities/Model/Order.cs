@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using MvcCoreDemo.Domain.Interfaces.Validation;
+using MvcMusicStore.Domain.Interfaces.Validation;
 using FluentValidation.Results;
 
-namespace MvcCoreDemo.Domain.Entities.Model
+namespace MvcMusicStore.Domain.Entities.Model
 {
     public class Order : AggregateRoot, ISelfValidation
     {

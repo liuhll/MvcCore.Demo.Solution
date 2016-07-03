@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcCoreDemo.Domain.Interfaces;
+using MvcMusicStore.Domain.Interfaces;
 
-namespace MvcCoreDemo.Domain.Entities
+namespace MvcMusicStore.Domain.Entities
 {
     public abstract class AggregateRoot : IAggregateRoot
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace MvcCoreDemo.Domain.Interfaces.Repository.Common
+namespace MvcMusicStore.Domain.Interfaces.Repository.Common
 {
     public interface IRepository<TEntity>
     where TEntity : class
