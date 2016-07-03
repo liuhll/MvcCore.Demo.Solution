@@ -1,7 +1,7 @@
-﻿using MvcMusicStore.Domain.Entities.Model;
-using MvcMusicStore.Domain.Interfaces.Repository.Common;
+﻿using MvcCoreDemo.Domain.Entities.Model;
+using MvcCoreDemo.Domain.Interfaces.Repository.Common;
 
-namespace MvcMusicStore.Domain.Interfaces.Repository
+namespace MvcCoreDemo.Domain.Interfaces.Repository
 {
     public interface IGenreRepository : IRepository<Genre>
     {

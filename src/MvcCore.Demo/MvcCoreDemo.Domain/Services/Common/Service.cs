@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 using FluentValidation.Results;
-using MvcMusicStore.Domain.Interfaces.Repository.Common;
-using MvcMusicStore.Domain.Interfaces.Service.Common;
-using MvcMusicStore.Domain.Interfaces.Validation;
+using MvcCoreDemo.Domain.Interfaces.Repository.Common;
+using MvcCoreDemo.Domain.Interfaces.Service.Common;
+using MvcCoreDemo.Domain.Interfaces.Validation;
 
-namespace MvcMusicStore.Domain.Services.Common
+namespace MvcCoreDemo.Domain.Services.Common
 {
     public class Service<TEntity> : IService<TEntity>
          where TEntity : class

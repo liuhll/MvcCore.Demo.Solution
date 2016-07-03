@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MvcMusicStore.Domain.Interfaces
+namespace MvcCoreDemo.Domain.Interfaces
 {
 
     /// <summary>

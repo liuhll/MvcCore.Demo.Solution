@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using FluentValidation.Results;
-using MvcMusicStore.Domain.Interfaces.Validation;
+using MvcCoreDemo.Domain.Interfaces.Validation;
 
-namespace MvcMusicStore.Domain.Entities.Model
+namespace MvcCoreDemo.Domain.Entities.Model
 {
     public class Genre : AggregateRoot, ISelfValidation
     {

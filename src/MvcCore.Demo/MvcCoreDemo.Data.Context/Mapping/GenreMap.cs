@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Threading.Tasks;
-using MvcMusicStore.Domain.Entities.Model;
+﻿using System.Data.Entity.ModelConfiguration;
+using MvcCoreDemo.Domain.Entities.Model;
 
-namespace MvcMusicStore.Data.Context.Mapping
+namespace MvcCoreDemo.Data.Context.Mapping
 {
     public class GenreMap : EntityTypeConfiguration<Genre>
     {

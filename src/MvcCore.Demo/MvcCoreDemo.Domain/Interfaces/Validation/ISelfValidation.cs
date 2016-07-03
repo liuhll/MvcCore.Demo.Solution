@@ -1,6 +1,6 @@
 ﻿using FluentValidation.Results;
 
-namespace MvcMusicStore.Domain.Interfaces.Validation
+namespace MvcCoreDemo.Domain.Interfaces.Validation
 {
     public interface ISelfValidation
     {

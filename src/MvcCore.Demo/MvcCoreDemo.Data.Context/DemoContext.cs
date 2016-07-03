@@ -4,9 +4,9 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading.Tasks;
+using MvcCoreDemo.Data.Context.Mapping;
+using MvcCoreDemo.Domain.Entities.Model;
 using MvcMusicStore.Data.Context.Config;
-using MvcMusicStore.Data.Context.Mapping;
-using MvcMusicStore.Domain.Entities.Model;
 
 namespace MvcMusicStore.Data.Context
 {

@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MvcMusicStore.Domain.Interfaces;
+using MvcCoreDemo.Domain.Interfaces;
 
-namespace MvcMusicStore.Domain.Entities
+namespace MvcCoreDemo.Domain.Entities
 {
     public abstract class AggregateRoot : IAggregateRoot
     {
