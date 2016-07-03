@@ -4,11 +4,11 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Threading.Tasks;
-using MvcCoreDemo.Data.Context.Config;
 using MvcCoreDemo.Data.Context.Mapping;
 using MvcCoreDemo.Domain.Entities.Model;
+using MvcMusicStore.Data.Context.Config;
 
-namespace MvcCoreDemo.Data.Context
+namespace MvcMusicStore.Data.Context
 {
     public class DemoContext : BaseDbContext
     {

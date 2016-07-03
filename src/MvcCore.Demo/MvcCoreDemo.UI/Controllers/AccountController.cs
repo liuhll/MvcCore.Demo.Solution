@@ -8,11 +8,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
-using MvcCoreDemo.UI.Models;
-using MvcCoreDemo.UI.Models.AccountViewModels;
-using MvcCoreDemo.UI.Services;
+using MvcMusicStore.UI.Models;
+using MvcMusicStore.UI.Models.AccountViewModels;
+using MvcMusicStore.UI.Services;
 
-namespace MvcCoreDemo.UI.Controllers
+namespace MvcMusicStore.UI.Controllers
 {
     [Authorize]
     public class AccountController : Controller

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using MvcCoreDemo.Domain.Interfaces.Validation;
 using FluentValidation.Results;
+using MvcCoreDemo.Domain.Interfaces.Validation;
 
 namespace MvcCoreDemo.Domain.Entities.Model
 {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
-using MvcCoreDemo.Data.Context.Interfaces;
+using MvcMusicStore.Data.Context.Interfaces;
 
-namespace MvcCoreDemo.Data.Context
+namespace MvcMusicStore.Data.Context
 {
     public class ContextManager<TContext> : IContextManager<TContext>
       where TContext : IDbContext, new()

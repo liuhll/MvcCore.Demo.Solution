@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using MvcCoreDemo.UI.Models;
+using MvcMusicStore.UI.Models;
 
-namespace MvcCoreDemo.UI.Data
+namespace MvcMusicStore.UI.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

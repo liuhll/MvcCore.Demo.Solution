@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Data.Entity.ModelConfiguration;
 using MvcCoreDemo.Domain.Entities.Model;
 
 namespace MvcCoreDemo.Data.Context.Mapping

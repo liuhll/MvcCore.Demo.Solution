@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace MvcCoreDemo.UI.Models.AccountViewModels
+namespace MvcMusicStore.UI.Models.AccountViewModels
 {
     public class SendCodeViewModel
     {
